@@ -6,14 +6,11 @@ Overview
 
 EdX Insights makes information about courses available to course team members
 who have the Course Staff or Instructor role. EdX Insights provides these
-course team members with data about student backgrounds and activities
-throughout the course. Using edX Insights can help you validate the choices you
-made in designing your course. It can also help you re-evaluate choices and
-inform efforts to improve your course and the experience of your learners.
-
-.. ...data about student activity, background, and performance throughout the course.
-
-.. be sure to cast this as firstly a tool to provide the "how are my students doing" info that teams want when performance gets added (Mark Rudnick comment)
+course team members with data about student activity, background, and
+performance throughout the course. Using edX Insights can help you monitor how
+students are doing, and validate the choices you made in designing your
+course. It can also help you re-evaluate choices and inform efforts to improve
+your course and the experience of your learners.
 
 Putting the data provided by edX Insights to work involves:
 
@@ -34,7 +31,8 @@ top right of each chart or metric.
  :alt: The Active Students Last Week metric with the tip "Students who visited 
        at least one page in the course content" showing
 
-This guide is intended to offer more complete information.
+This guide is intended to offer more complete information about the data that
+edX Insights presents.
 
 * For information about the computation of the values that are reported, see 
   the :ref:`Reference` chapter. For a reference to the data that edX collects 
@@ -48,6 +46,8 @@ This guide is intended to offer more complete information.
  * :ref:`Enrollment_Geography`
 
  * :ref:`Engagement_Content`
+ 
+ * :ref:`Performance_Graded`
 
 Each of these chapters contains a section for anecdotal "Analytics in Action".
 These sections showcase how collected data has revealed information about

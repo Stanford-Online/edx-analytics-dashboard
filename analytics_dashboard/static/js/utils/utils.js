@@ -1,5 +1,6 @@
-define(['moment', 'underscore'], function (moment, _) {
+define(['moment', 'underscore', 'utils/globalization'], function (moment, _, Globalize) {
     'use strict';
+
     var utils = {
         /**
          * Returns the attributes of a node.
@@ -38,7 +39,17 @@ define(['moment', 'underscore'], function (moment, _) {
          * @returns {string} Returns a formatted date (ex. January 31, 2014)
          */
         formatDate: function (date) {
-            return moment(date).format('MMMM D, YYYY');
+            moment.locale(window.language);
+            return moment(date).format('LL');
+        },
+
+        /**
+         * Format the given number for the current locale
+         * @param value {number}
+         * @returns {string}
+         */
+        localizeNumber: function (value) {
+            return Globalize.formatNumber(value);
         },
 
         /**
@@ -48,11 +59,25 @@ define(['moment', 'underscore'], function (moment, _) {
          */
         formatDisplayPercentage: function (value) {
             var display = '< 1%';
-            if (value >= 0.01) {
-                display = (value * 100).toFixed(1) + '%';
+            if (value >= 0.01 || value === 0) {
+                display = Globalize.formatNumber(value, {
+                    style: 'percent',
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1
+                });
             }
-
             return display;
+        },
+
+        /**
+         * Truncates text and adds ellipse at the end.
+         */
+        truncateText: function(text, characterLimit) {
+            var formattedLabel = text.slice(0, characterLimit);
+            if (characterLimit > 3 && _(text).size() > characterLimit) {
+                formattedLabel = text.slice(0, characterLimit - 3) + gettext('...');
+            }
+            return formattedLabel;
         }
     };
 

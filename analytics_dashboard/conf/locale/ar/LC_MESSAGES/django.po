@@ -1,0 +1,877 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Abdelghani Gadiri <wh.gnu.linux@gmail.com>, 2014
+# Ashraf Alsinglawi <alsinglawi@hotmail.com>, 2014
+# Manal Ahmed Aljahdali <manal.ahmed.m.j@gmail.com>, 2014
+# may <may@qordoba.com>, 2014
+# Nabeel El-Dughailib <nabeel@qordoba.com>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-09 16:38-0500\n"
+"PO-Revision-Date: 2015-01-09 21:41+0000\n"
+"Last-Translator: cblackburn <cblackburn@edx.org>\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/edx-platform/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Insights to help course teams improve courses."
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+#: courses/views.py
+msgid "Who are my students?"
+msgstr "من هم طلّابي؟"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Target your course to fit the backgrounds of your students."
+msgstr ""
+"يُرجى منك أن توجّه مساقك بحيث يتناسب مع الخلفيّات التي يأتي منها طلّابك. "
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+#: courses/templates/courses/enrollment_geography.html
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+#: courses/views.py
+msgid "Enrollment"
+msgstr "التسجيل "
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "What are students engaging with in my course?"
+msgstr "ما الذي يستحوذ على اهتمام الطلّاب في مساقي؟"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid ""
+"Improve frequently accessed content, or point students at underused "
+"resources."
+msgstr ""
+"تحسين المحتوى الذي يكثر استخدامه، أو لفت انتباه الطلّاب إلى المصادر قليلة "
+"الاستخدام. "
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+#: courses/tests/test_views/test_pages.py courses/views.py courses/views.py
+#: courses/views.py
+msgid "Engagement"
+msgstr "المشاركة"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "How well is my content supporting student learning?"
+msgstr "ما مدى الدعم الذي يسهم به محتوى مساقي في تعلّم الطلّاب؟"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Adjust your course based on where students are struggling."
+msgstr "يُرجى منك تعديل مساقك بناءً على الصعوبات التي يواجهها الطلّاب. "
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Performance"
+msgstr "الأداء"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Join the Open Source Community"
+msgstr "يسعدنا انضمامك إلى \"مجتمع المصادر المفتوحة\""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid ""
+"The edX analytics data pipeline and edX Insights are open source. "
+"%(link_start)sLearn more%(link_end)s."
+msgstr ""
+"تميِّز المصادر المفتوحة رؤى edX ومجرى البيانات الخاص بتحليلات هذه المنصّة. "
+"%(link_start)sاعرف المزيد%(link_end)s. "
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Research at edX"
+msgstr "البحث في edX"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid ""
+"We are committed to advancing teaching and learning through research. "
+"%(link_start)sLearn more%(link_end)s."
+msgstr ""
+"نعرب عن التزامنا بتطوير التعليم والتعلّم من خلال البحث. %(link_start)sاعرف "
+"أكثر%(link_end)s."
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Need Help?"
+msgstr "هل تحتاج إلى المساعدة؟"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid ""
+"%(link_start)sOur support center%(link_end)s can help you find solutions."
+msgstr ""
+"يسرّ %(link_start)sمركز الدعم الخاص بنا%(link_end)s أن يساعدك على إيجاد "
+"الحلول. "
+
+#. Translators: Simply move the percent symbol (%) to the correct location. Do
+#. NOT translate the word statistic.
+#: analytics_dashboard/templatetags/dashboard_extras.py
+msgid "{statistic}%"
+msgstr "{statistic}%"
+
+#: courses/presenters.py
+msgid "Female"
+msgstr "أنثى"
+
+#: courses/presenters.py
+msgid "Male"
+msgstr "ذكر"
+
+#. Translators: Other gender
+#. Translators: This describes the learner's education level.
+#: courses/presenters.py courses/presenters.py
+msgid "Other"
+msgstr "غير ذلك"
+
+#. Translators: Unknown gender
+#. Translators: This describes the learner's education level.
+#: courses/presenters.py courses/presenters.py courses/presenters.py
+msgid "Unknown"
+msgstr "غير معروف "
+
+#. Translators: This describes the learner's education level.
+#: courses/presenters.py
+msgid "None"
+msgstr "غير مذكور"
+
+#. Translators: This describes the learner's education level (e.g. Elementary
+#. School Degree).
+#: courses/presenters.py courses/tests/test_serializers.py
+msgid "Primary"
+msgstr "ابتدائي"
+
+#. Translators: This describes the learner's education level  (e.g. Middle
+#. School Degree).
+#: courses/presenters.py
+msgid "Middle"
+msgstr "متوسّط"
+
+#. Translators: This describes the learner's education level.
+#: courses/presenters.py
+msgid "Secondary"
+msgstr "ثانوي"
+
+#. Translators: This describes the learner's education level (e.g. Associate's
+#. Degree).
+#: courses/presenters.py
+msgid "Associate"
+msgstr "زمالة"
+
+#. Translators: This describes the learner's education level (e.g. Bachelor's
+#. Degree).
+#: courses/presenters.py
+msgid "Bachelor's"
+msgstr "بكالوريوس"
+
+#. Translators: This describes the learner's education level (e.g. Master's
+#. Degree).
+#: courses/presenters.py
+msgid "Master's"
+msgstr "ماجستير"
+
+#. Translators: This describes the learner's education level (e.g. Doctorate
+#. Degree).
+#: courses/presenters.py
+msgid "Doctorate"
+msgstr "دكتوراه"
+
+#. Translators: This is a placeholder for enrollment data collected without a
+#. known geolocation.
+#: courses/presenters.py
+msgid "Unknown Country"
+msgstr "البلد غير معروف"
+
+#. Translators: This describes the data displayed in the chart below.
+#: courses/templates/courses/demographics_chart_info.html
+msgid "Students (Self-Reported)"
+msgstr "الطلّاب (جرى الإدلاء بها ذاتيًّا)"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Weekly Student Engagement"
+msgstr "المشاركة الأسبوعية للطلّاب"
+
+#: courses/templates/courses/engagement_content.html courses/views.py
+msgid "How many students are interacting with my course?"
+msgstr "كم عدد الطلّاب الذين يتفاعلون مع مساقي؟"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Students"
+msgstr "الطلّاب "
+
+#: courses/templates/courses/engagement_content.html
+msgid ""
+"The number of active students, and the number of students who engaged in "
+"specific activities, over time."
+msgstr ""
+"عدد الطلّاب النشطين، وعدد الطلّاب الذين شاركوا في أنشطة محدّدة، على مرّ "
+"الوقت."
+
+#: courses/templates/courses/engagement_content.html
+msgid "Student Activity Metrics"
+msgstr "المقاييس الخاصّة بأنشطة الطلّاب"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Active Students Last Week"
+msgstr "الطلّاب النشطون خلال الأسبوع الماضي"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Students who visited at least one page in the course content."
+msgstr "الطلّاب الذين زاروا صفحة واحدة على الأقلّ من محتوى المساق"
+
+#. Translators: This is a label indicating the number of students who watched
+#. a video.
+#: courses/templates/courses/engagement_content.html
+msgid "Watched a Video Last Week"
+msgstr "عدد الطلّاب الذين شاهدوا فيديو خلال الأسبوع الماضي"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Students who played one or more videos."
+msgstr "الطلّاب الذين قاموا بمشاهدة فيديو واحد أو أكثر"
+
+#. Translators: This is a label indicating the number of students who tried a
+#. problem.
+#: courses/templates/courses/engagement_content.html
+msgid "Tried a Problem Last Week"
+msgstr "عدد الطلّاب الذين حاولوا حلّ مسألة خلال الأسبوع الماضي"
+
+#: courses/templates/courses/engagement_content.html
+msgid ""
+"Students who submitted an answer for a standard problem. Not all problem "
+"types are included."
+msgstr ""
+"الطلّاب الذين قدّموا إجابة على إحدى المسائل القياسية؛ وهذا لا يتضمّن جميع "
+"أنواع المسائل."
+
+#. Translators: This is a label indicating the number of students who posted
+#. in a forum discussion.
+#: courses/templates/courses/engagement_content.html
+msgid "Posted in a Discussion Last Week"
+msgstr "عدد الطلّاب الذين شاركوا بمنشورات في أحد نقاشات الأسبوع الماضي"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Students who contributed to any discussion topic."
+msgstr "عدد الطلاب الذين شاركوا في أيٍّ من مواضيع النقاش"
+
+#: courses/templates/courses/engagement_content.html
+#: courses/templates/courses/engagement_content.html
+msgid "Content Engagement Breakdown"
+msgstr "تقسيم الطلّاب بحسب مشاركتهم في المحتوى "
+
+#: courses/templates/courses/engagement_content.html
+#: courses/templates/courses/enrollment_activity.html
+#: courses/templates/courses/enrollment_demographics_age.html
+#: courses/templates/courses/enrollment_demographics_education.html
+#: courses/templates/courses/enrollment_demographics_gender.html
+#: courses/templates/courses/enrollment_geography.html
+msgid "Download CSV"
+msgstr "تنزيل ملفات بصيغة CSV"
+
+#: courses/templates/courses/enrollment_activity.html
+msgid "Daily Student Enrollment"
+msgstr "التسجيل اليومي للطلّاب "
+
+#: courses/templates/courses/enrollment_activity.html courses/views.py
+msgid "How many students are in my course?"
+msgstr "كم عدد الطلّاب المسجّلين في مساقي؟"
+
+#: courses/templates/courses/enrollment_activity.html
+msgid "Enrollments"
+msgstr "عمليات التسجيل "
+
+#: courses/templates/courses/enrollment_activity.html
+msgid ""
+"This graph displays total enrollment for the course calculated at the end of"
+" each day. Total enrollment includes new enrollments as well as "
+"unenrollments."
+msgstr ""
+"يبيّن هذا الرسم إجمالي عمليات التسجيل في المساق في نهاية كل يوم. ويتضمّن هذا"
+" المجموع عمليات التسجيل الجديدة وكذلك عمليات التسجيل الملغاة. "
+
+#: courses/templates/courses/enrollment_activity.html
+msgid "Enrollment Metrics"
+msgstr "المقاييس الخاصة بعمليّات التسجيل"
+
+#. Translators: This is a label to identify current student enrollment.
+#: courses/templates/courses/enrollment_activity.html
+msgid "Total Enrollment"
+msgstr "إجمالي عمليات التسجيل"
+
+#. Translators: This is a label indicating the number of students enrolled in
+#. a course.
+#: courses/templates/courses/enrollment_activity.html
+msgid "Students enrolled in the course."
+msgstr "عدد الطلّاب المسجّلين في المساق"
+
+#. Translators: This is a label indicating the change in the number of
+#. students enrolled in a course since the previous week.
+#: courses/templates/courses/enrollment_activity.html
+msgid "Change in Last Week"
+msgstr "التغيّر في عدد الطلّاب المسجّلين في المساق خلال الأسبوع الماضي"
+
+#: courses/templates/courses/enrollment_activity.html
+msgid ""
+"The difference between the number of students enrolled at the end of the day"
+" yesterday and one week before."
+msgstr ""
+"الفرق بين عدد الطلّاب المسجّلين في نهاية يوم أمس وعددهم قبل ذلك بأسبوع"
+
+#. Translators: This is a label to identify enrollment of students on the
+#. verified track.
+#: courses/templates/courses/enrollment_activity.html
+msgid "Verified Enrollment"
+msgstr "التسجيل الموثّق"
+
+#. Translators: This is a label indicating the number of students enrolled in
+#. a course on the verified track.
+#: courses/templates/courses/enrollment_activity.html
+msgid ""
+"Number of enrolled students who are pursuing a verified certificate of "
+"achievement."
+msgstr "عدد الطلّاب المسجّلين الذين يسعون للحصول على شهادة إتمام موثّقة "
+
+#. Translators: This is a label indicating the change in the number of
+#. students enrolled in the verified track of a course since the previous
+#. week.
+#: courses/templates/courses/enrollment_activity.html
+msgid "Change in Verified Enrollments Last Week"
+msgstr ""
+"التغيّر في عدد الطلاب المسجّلين في مسار الشهادات الموثّقة خلال الأسبوع "
+"الماضي"
+
+#: courses/templates/courses/enrollment_activity.html
+msgid ""
+"The difference between the number of students pursuing verified certificates"
+" at the end of the day yesterday and one week before."
+msgstr ""
+"الفرق بين عدد الطلّاب الساعين للحصول على شهادات موثّقة في نهاية يوم أمس "
+"وعددهم قبل ذلك بأسبوع"
+
+#: courses/templates/courses/enrollment_activity.html
+#: courses/templates/courses/enrollment_activity.html
+#: courses/templates/courses/enrollment_demographics_age.html
+#: courses/templates/courses/enrollment_demographics_education.html
+#: courses/templates/courses/enrollment_demographics_gender.html
+msgid "Enrollment Over Time"
+msgstr "عدد عمليات التسجيل مع مرور الوقت"
+
+#: courses/templates/courses/enrollment_demographics_age.html courses/views.py
+msgid "How old are my students?"
+msgstr "ما هي أعمار الطلّاب المسجّلين لديّ؟"
+
+#. Translators: Maintain the double percentage symbols (%%) but move them to
+#. the appropriate location (before/after the value placeholder) for your
+#. language.
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid ""
+"This age histogram presents data computed for the %(value)s%% of enrolled "
+"students who provided a year of birth."
+msgstr ""
+"يقدّم هذا المدرّج التكراري للأعمار بيانات محسوبة لـ %(value)s%% من الطلّاب "
+"المسجّلين الذين أوردوا سنة ميلادهم. "
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Age Metrics"
+msgstr "المقاييس الخاصّة بالعمر"
+
+#. Translators: This is a label to identify the median age of enrolled
+#. students.
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Median Student Age"
+msgstr "متوسّط أعمار الطلّاب"
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid ""
+"The midpoint of the student ages, computed from the provided year of birth."
+msgstr "متوسّط أعمار الطلّاب محسوبًا من سنة الميلاد التي قدّمها الطالب"
+
+#. Translators: This is a label to identify the number of students in the age
+#. range.
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Students 25 and Under"
+msgstr "عدد الطلّاب بعمر 25 سنة فما دون "
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid ""
+"The percentage of students aged 25 years or younger (of those who provided a"
+" year of birth)."
+msgstr ""
+"نسبة الطلّاب البالغين من العمر 25 سنة أو أقلّ (من بين الذين صرّحوا بسنة "
+"ميلادهم)"
+
+#. Translators: This is a label to identify the number of students in the age
+#. range.
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Students 26 to 40"
+msgstr "عدد الطلّاب الذين تتراوح أعمارهم بين 26 و40 سنة"
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid ""
+"The percentage of students aged from 26 to 40 years (of those who provided a"
+" year of birth)."
+msgstr ""
+"نسبة الطلّاب الذين تتراوح أعمارهم بين 26 و40 سنة (من بين الذين صرّحوا بسنة "
+"ميلادهم)"
+
+#. Translators: This is a label to identify the number of students in the age
+#. range.
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Students 41 and Over"
+msgstr "عدد الطلّاب البالغين من العمر 41 سنة فما فوق "
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid ""
+"The percentage of students aged 41 years or older (of those who provided a "
+"year of birth)."
+msgstr ""
+"نسبة الطلّاب البالغين من العمر 41 سنة فما فوق (من بين الذين صرّحوا بسنة "
+"ميلادهم)"
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Age Breakdown"
+msgstr "تقسيم الطلّاب بحسب الأعمار"
+
+#: courses/templates/courses/enrollment_demographics_education.html
+#: courses/views.py
+msgid "What level of education do my students have?"
+msgstr "ما هو المستوى التعليمي لطلّابي؟"
+
+#. Translators: Maintain the double percentage symbols (%%) but move them to
+#. the appropriate location (before/after the value placeholder) for your
+#. language.
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid ""
+"This graph presents data for the %(value)s%% of enrolled students who "
+"provided a highest level of education completed."
+msgstr ""
+"يقدّم هذا الرسم بيانات تخصّ %(value)s%% من الطلّاب المسجّلين الذين أوردوا "
+"أعلى مستوى تعليمي وصلوا إليه."
+
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid "Education Metrics"
+msgstr "المقاييس الخاصّة بالمستوى التعليمي"
+
+#. Translators: This is a label to identify student educational background.
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid "High School Diploma or Less"
+msgstr "شهادة الثانوية العامة أو ما دون ذلك"
+
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid ""
+"The percentage of students who selected Secondary/high school, Junior "
+"secondary/junior high/middle school, or Elementary/primary school as their "
+"highest level of education completed."
+msgstr ""
+"نسبة الطلّاب الذين اختاروا شهادة الثانوية العامة، أو الشهادة "
+"المتوسّطة/الإعدادية، أو الشهادة الابتدائية كأعلى مستوى تعليمي وصلوا إليه"
+
+#. Translators: This is a label to identify student educational background.
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid "College Degree"
+msgstr "شهادة جامعية"
+
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid ""
+"The percentage of students who selected Bachelor's degree or Associate "
+"degree as their highest level of education completed."
+msgstr ""
+"نسبة الطلّاب الذين اختاروا درجة البكالوريوس أو درجة الزمالة كأعلى مستوى "
+"تعليمي وصلوا إليه"
+
+#. Translators: This is a label to identify student educational background.
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid "Advanced Degree"
+msgstr "درجة جامعية متقدّمة"
+
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid ""
+"The percentage of students who selected Doctorate or Master's or "
+"professional degree as their highest level of education completed."
+msgstr ""
+"نسبة الطلّاب الذين اختاروا الدكتوراه، أو الماجستير، أو درجة تخصّص مهني كأعلى"
+" مستوى تعليمي وصلوا إليه"
+
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid "Educational Breakdown"
+msgstr "تقسيم الطلّاب بحسب المستوى التعليمي"
+
+#: courses/templates/courses/enrollment_demographics_gender.html
+#: courses/views.py
+msgid "What is the student gender breakdown?"
+msgstr "ما هو تقسيم الطلاب بحسب جنسهم؟"
+
+#. Translators: Maintain the double percentage symbols (%%) but move them to
+#. the appropriate location (before/after the value placeholder) for your
+#. language.
+#: courses/templates/courses/enrollment_demographics_gender.html
+msgid ""
+"This graph presents data for the %(value)s%% of enrolled students who "
+"specified their gender."
+msgstr ""
+"يقدّم هذا الرسم بيانات تخصّ %(value)s%% من الطلّاب المسجّلين الذين حدّدوا "
+"نوع جنسهم. "
+
+#: courses/templates/courses/enrollment_demographics_gender.html
+msgid "Gender Breakdown Over Time"
+msgstr "تقسيم الطلّاب بحسب جنسهم مع مرور الوقت "
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Geographic Distribution"
+msgstr "التوزّع الجغرافي"
+
+#: courses/templates/courses/enrollment_geography.html courses/views.py
+msgid "Where are my students?"
+msgstr "أين يتواجد طلّابي؟"
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Enrollment by Country"
+msgstr "الأعداد المسجّلة بحسب الدولة"
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Geography Metrics"
+msgstr "المقاييس الخاصّة بالموقع الجغرافي"
+
+#. Translators: This string represents the number of countries where students
+#. are enrolled.
+#: courses/templates/courses/enrollment_geography.html
+msgid "Total Countries Represented"
+msgstr "مجموع الدول الممثّلة "
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Countries with at least one student."
+msgstr "الدول التي يتواجد فيها طالب واحد على الأقلّ"
+
+#. Translators: This string represents the country with the greatest number of
+#. enrolled students.
+#: courses/templates/courses/enrollment_geography.html
+msgid "Top Country by Enrollment"
+msgstr "الدولة الأولى من حيث عدد الطلّاب المسجّلين"
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Country with the largest number of students."
+msgstr "الدولة التي يتواجد فيها أكبر عدد من الطلّاب"
+
+#. Translators: This string represents the country with the second-greatest
+#. number of enrolled students.
+#: courses/templates/courses/enrollment_geography.html
+msgid "Second Country by Enrollment"
+msgstr "ثاني أكبر دولة من حيث عدد الطلّاب المسجّلين "
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Country with the second largest number of students."
+msgstr "الدولة التي يتواجد فيها ثاني أكبر عدد من الطلّاب"
+
+#. Translators: This string represents the country with the third-greatest
+#. number of enrolled students.
+#: courses/templates/courses/enrollment_geography.html
+msgid "Third Country by Enrollment"
+msgstr "ثالث أكبر دولة من حيث عدد الطلّاب المسجّلين "
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Country with the third largest number of students."
+msgstr "الدولة التي يتواجد فيها ثالث أكبر عدد من الطلّاب"
+
+#. Translators: This string represents the percentage of students in a course.
+#. Move the % symbol, if necessary, but keep the percent variable/placeholder.
+#: courses/templates/courses/enrollment_geography.html
+msgid "%(percent)s%% of students"
+msgstr "%(percent)s%% من الطلّاب"
+
+#: courses/templates/courses/enrollment_geography.html
+#: courses/templates/courses/enrollment_geography.html
+msgid "Geographic Breakdown"
+msgstr "تقسيم الطلّاب من حيث توزّعهم الجغرافي"
+
+#. Translators: Application here refers to the web site/application being used
+#. (e.g. the dashboard).
+#: courses/templates/courses/home.html templates/base_dashboard.html
+#: templates/footer.html templates/lens-navigation.html
+msgid "Application"
+msgstr "التطبيق المستخدم"
+
+#: courses/templates/courses/home.html courses/views.py
+msgid "Course Home"
+msgstr "صفحة المساق الرئيسية"
+
+#. Translators: This refers to the active tab/navigation item.
+#. Translators: This refers to the active tab/navigation item.
+#: courses/templates/courses/home.html templates/lens-navigation.html
+#: templates/submenu_navigation.html
+msgid "Active"
+msgstr "فعّال"
+
+#: courses/templates/courses/index.html
+msgid "Courses"
+msgstr "المساقات"
+
+#: courses/templates/courses/index.html
+msgid "Welcome, %(username)s!"
+msgstr "مرحباً بك، %(username)s!"
+
+#: courses/templates/courses/index.html
+msgid "Here are the courses you currently have access to in Insights:"
+msgstr ""
+"فيما يلي قائمة بالمساقات التي يمكنك حاليًا الوصول إليها من خلال صفحة ’لمحة "
+"عن المساق‘:"
+
+#: courses/templates/courses/index.html
+msgid "New to %(application_name)s?"
+msgstr "هل تستخدم تطبيق %(application_name)s للمرّة الأولى؟"
+
+#: courses/templates/courses/index.html
+msgid ""
+"Click Help in the upper-right corner to get more information about "
+"%(application_name)s. Send us feedback at %(email_link)s."
+msgstr ""
+"انقر زرّ المساعدة في الزاوية العلوية اليمنى للحصول على مزيد من المعلومات عن "
+"%(application_name)s. ويمكنك مراسلتنا على عنوان البريد الإلكتروني التالي "
+"%(email_link)s."
+
+#. Translators: This message is displayed when the website is unable to get
+#. the credentials for the user
+#: courses/templates/courses/permissions-retrieval-failed.html
+#: courses/templates/courses/permissions-retrieval-failed.html
+msgid "Permissions Retrieval Failed"
+msgstr "لم تنجح عملية استرجاع قائمة الصلاحيات."
+
+#: courses/templates/courses/permissions-retrieval-failed.html
+msgid ""
+"There was a problem retrieving course permissions for your account. Please "
+"try again. If you continue to experience issues, please let us know."
+msgstr ""
+"حدث خطأ أثناء محاولة استرجاع قائمة صلاحيات المساق الخاصّة بحسابك، يُرجى "
+"المحاولة مجدّدًا، وإعلامنا في حال استمرّت المشكلة."
+
+#: courses/templates/courses/permissions-retrieval-failed.html
+#: templates/auth_error.html
+msgid "Try Again"
+msgstr "الرجاء إعادة المحاولة."
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+msgid "Activity"
+msgstr "النشاط"
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+#: courses/views.py courses/views.py
+msgid "Demographics"
+msgstr "الخصائص السكانية "
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+msgid "Geography"
+msgstr "الموقع الجغرافي"
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+msgid "Age"
+msgstr "العمر"
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+msgid "Education"
+msgstr "المستوى التعليمي"
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+msgid "Gender"
+msgstr "الجنس"
+
+#. Translators: Content as in course content (e.g. things, not the feeling)
+#: courses/tests/test_views/test_pages.py courses/views.py courses/views.py
+msgid "Content"
+msgstr "المحتوى"
+
+#. Translators: Do not translate UTC.
+#: courses/views.py
+msgid ""
+"Demographic student data was last updated %(update_date)s at %(update_time)s"
+" UTC."
+msgstr ""
+"جرى التحديث الأخير لبيانات الطالب الديموغرافية بتاريخ %(update_date)s عند "
+"الساعة %(update_time)s حسب التوقيت العالمي UTC."
+
+#. Translators: This sentence is displayed at the bottom of the page and
+#. describe the demographics data displayed.
+#: courses/views.py
+msgid ""
+"All above demographic data was self-reported at the time of registration."
+msgstr ""
+"جرى الإدلاء ذاتيًا، وقت التسجيل، بكافة البيانات الديموغرافية المبيّنة أعلاه."
+
+#: courses/views.py
+msgid "Enrollment Activity"
+msgstr "الأنشطة المتعلّقة بالتسجيل"
+
+#. Translators: Do not translate UTC.
+#: courses/views.py
+msgid ""
+"Enrollment activity data was last updated %(update_date)s at %(update_time)s"
+" UTC."
+msgstr ""
+"جرى التحديث الأخير لبيانات أنشطة التسجيل بتاريخ %(update_date)s عند الساعة "
+"%(update_time)s حسب التوقيت العالمي UTC."
+
+#: courses/views.py
+msgid "Enrollment Demographics by Age"
+msgstr "البيانات الديموغرافية الخاصة بالتسجيل وفقًا للعمر"
+
+#: courses/views.py
+msgid "Enrollment Demographics by Education"
+msgstr "البيانات الديموغرافية الخاصة بالتسجيل وفقًا لمستوى التعليم"
+
+#: courses/views.py
+msgid "Enrollment Demographics by Gender"
+msgstr "البيانات الديموغرافية الخاصة بالتسجيل وفقًا للجنس"
+
+#: courses/views.py
+msgid "Enrollment Geography"
+msgstr "البيانات الجغرافية الخاصة بالتسجيل "
+
+#. Translators: Do not translate UTC.
+#: courses/views.py
+msgid ""
+"Geographic student data was last updated %(update_date)s at %(update_time)s "
+"UTC."
+msgstr ""
+"جرى التحديث الأخير لبيانات الطالب الجغرافية بتاريخ %(update_date)s عند "
+"الساعة %(update_time)s بحسب التوقيت العالمي UTC."
+
+#: courses/views.py
+msgid "Engagement Content"
+msgstr "محتوى المشاركة"
+
+#. Translators: Do not translate UTC.
+#: courses/views.py
+msgid ""
+"Course engagement data was last updated %(update_date)s at %(update_time)s "
+"UTC."
+msgstr ""
+"جرى التحديث الأخير لبيانات المشاركة في المساق بتاريخ %(update_date)s عند "
+"الساعة %(update_time)s حسب التوقيت العالمي UTC. "
+
+#: courses/views.py
+msgid "What are students doing in my course?"
+msgstr "ماذا يفعل الطلّاب في مساقي؟"
+
+#: templates/403.html templates/403.html.py
+msgid "Access Denied"
+msgstr "عذراً، لا يمكنك الدخول."
+
+#: templates/403.html
+msgid ""
+"You do not have permission to view this page. If you believe you should have"
+" access to this page, try logging out and logging in again to refresh your "
+"permissions."
+msgstr ""
+"عذراً، ليس لديك الصلاحية لزيارة هذه الصفحة. إذا كنت تعتقد بأنّك تتمتّع بهذه "
+"الصلاحية، رجاءً حاول الخروج ثمّ تسجيل الدخول مجدّدًا لتحديث صلاحيّتك. "
+
+#: templates/403.html
+msgid "Logout then Login"
+msgstr "الرجاء الخروج، ثمّ تسجيل دخولك مجدّدًا."
+
+#: templates/404.html templates/404.html.py
+msgid "Page Not Found"
+msgstr "الصفحة التي طلبتها غير موجودة "
+
+#: templates/404.html
+msgid ""
+"We can't find the page you're looking for. Please make sure the URL is "
+"correct and if not try again."
+msgstr ""
+"عذراً، لم نتمكّن من إيجاد الصفحة التي تبحث عنها. يُرجى التحقّق من الرابط "
+"والمحاولة من جديد."
+
+#: templates/500.html templates/500.html.py
+msgid "An Error Occurred"
+msgstr "حدث خطأ ما. "
+
+#: templates/500.html
+msgid ""
+"Our servers weren't able to complete your request. Please try again by "
+"refreshing this page or retracing your steps."
+msgstr ""
+"عذراً، لم تستطع مخدّماتنا إكمال طلبك. يُرجى المحاولة من جديد عبر إعادة تحميل"
+" هذه الصفحة أو إعادة اتّباع الخطوات من أوّلها."
+
+#: templates/auth_error.html templates/auth_error.html.py
+msgid "Authentication Failed"
+msgstr "لم تنجح عملية التحقق من المعلومات."
+
+#: templates/auth_error.html
+msgid "There was a problem accessing your account. Please try again."
+msgstr ""
+"عذراً، حدثت مشكلة في عملية تسجيل الدخول إلى حسابك. الرجاء إعادة المحاولة. "
+
+#: templates/base-error.html
+msgid "Use our support tool to ask questions or share feedback."
+msgstr ""
+"بإمكانك استخدام أداة الدعم التي قمنا بتوفيرها لطرح تساؤلاتك أو مشاركتنا "
+"آرائك."
+
+#. Translators: This intention here is that a user clicks a button to contact
+#. a support group (e.g. edX Support, or MITx Support). Reorder the
+#. placeholder as you see fit.
+#: templates/base-error.html
+msgid "Contact %(platform_name)s Support"
+msgstr "يُرجى الاتصال بقسم الدعم الخاص بمنصة %(platform_name)s "
+
+#: templates/footer.html
+msgid ""
+"We want this dashboard to work for you! Need help? "
+"%(support_link_start)sVisit our support forum%(support_link_end)s. Comments "
+"or suggestions? Email %(email_link)s."
+msgstr ""
+"يهمنا أن تفيدك لوحة المعلومات هذه! هل تحتاج إلى المساعدة؟ "
+"%(support_link_start)sيُرجى زيارة منتدى فريقنا للدعم "
+"الفنّي%(support_link_end)s، وأيضًا مراسلتنا على عنوان البريد الإلكتروني "
+"%(email_link)s إذا كان لديك أي تعليقات أو اقتراحات."
+
+#: templates/footer.html
+msgid "Terms of Service"
+msgstr "شروط الخدمة"
+
+#: templates/footer.html
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#. Translators: The © symbol appears directly before this line.
+#: templates/footer.html
+msgid ""
+" %(current_year)s %(platform_name)s, except where noted, all rights\n"
+"            reserved. "
+msgstr ""
+"%(current_year)s %(platform_name)s جميع الحقوق\n"
+"محفوظة ما لم يُذكر خلاف ذلك"
+
+#: templates/header.html
+msgid "Toggle navigation"
+msgstr "تبديل طريقة التصفّح"
+
+#: templates/header.html
+msgid "Help"
+msgstr "المساعدة"
+
+#: templates/header.html
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: templates/loading.html
+msgid "LOADING..."
+msgstr "جاري التحميل..."
+
+#: templates/section_error.html
+msgid "We are unable to load this chart."
+msgstr "نأسف لعدم إمكانية تحميل هذا المخطّط."
+
+#: templates/section_error.html
+msgid "We are unable to load this table."
+msgstr "نأسف لعدم إمكانية تحميل هذا الجدول."
+
+#: templates/section_error.html
+msgid "We are unable to load these metrics."
+msgstr "نأسف لعدم إمكانية تحميل هذه المقاييس."

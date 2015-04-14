@@ -1,0 +1,846 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Keleti László <lkeleti@wininvestor.hu>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-09 16:38-0500\n"
+"PO-Revision-Date: 2015-01-09 21:41+0000\n"
+"Last-Translator: cblackburn <cblackburn@edx.org>\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/edx-platform/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Login"
+msgstr "Bejelentkezés"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Insights to help course teams improve courses."
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+#: courses/views.py
+msgid "Who are my students?"
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Target your course to fit the backgrounds of your students."
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+#: courses/templates/courses/enrollment_geography.html
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+#: courses/views.py
+msgid "Enrollment"
+msgstr "Feliratkozás"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "What are students engaging with in my course?"
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid ""
+"Improve frequently accessed content, or point students at underused "
+"resources."
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+#: courses/tests/test_views/test_pages.py courses/views.py courses/views.py
+#: courses/views.py
+msgid "Engagement"
+msgstr "Terheltség"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "How well is my content supporting student learning?"
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Adjust your course based on where students are struggling."
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Performance"
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Join the Open Source Community"
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid ""
+"The edX analytics data pipeline and edX Insights are open source. "
+"%(link_start)sLearn more%(link_end)s."
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Research at edX"
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid ""
+"We are committed to advancing teaching and learning through research. "
+"%(link_start)sLearn more%(link_end)s."
+msgstr ""
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid "Need Help?"
+msgstr "Segítségre van szükséged?"
+
+#: analytics_dashboard/templates/analytics_dashboard/landing.html
+msgid ""
+"%(link_start)sOur support center%(link_end)s can help you find solutions."
+msgstr ""
+
+#. Translators: Simply move the percent symbol (%) to the correct location. Do
+#. NOT translate the word statistic.
+#: analytics_dashboard/templatetags/dashboard_extras.py
+msgid "{statistic}%"
+msgstr "{statistic}%"
+
+#: courses/presenters.py
+msgid "Female"
+msgstr "Nő"
+
+#: courses/presenters.py
+msgid "Male"
+msgstr "Férfi"
+
+#. Translators: Other gender
+#. Translators: This describes the learner's education level.
+#: courses/presenters.py courses/presenters.py
+msgid "Other"
+msgstr "Egyéb"
+
+#. Translators: Unknown gender
+#. Translators: This describes the learner's education level.
+#: courses/presenters.py courses/presenters.py courses/presenters.py
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#. Translators: This describes the learner's education level.
+#: courses/presenters.py
+msgid "None"
+msgstr "Nincs"
+
+#. Translators: This describes the learner's education level (e.g. Elementary
+#. School Degree).
+#: courses/presenters.py courses/tests/test_serializers.py
+msgid "Primary"
+msgstr "Elsődleges"
+
+#. Translators: This describes the learner's education level  (e.g. Middle
+#. School Degree).
+#: courses/presenters.py
+msgid "Middle"
+msgstr "Közép"
+
+#. Translators: This describes the learner's education level.
+#: courses/presenters.py
+msgid "Secondary"
+msgstr "Másodlagos"
+
+#. Translators: This describes the learner's education level (e.g. Associate's
+#. Degree).
+#: courses/presenters.py
+msgid "Associate"
+msgstr "Összekapcsolás"
+
+#. Translators: This describes the learner's education level (e.g. Bachelor's
+#. Degree).
+#: courses/presenters.py
+msgid "Bachelor's"
+msgstr ""
+
+#. Translators: This describes the learner's education level (e.g. Master's
+#. Degree).
+#: courses/presenters.py
+msgid "Master's"
+msgstr ""
+
+#. Translators: This describes the learner's education level (e.g. Doctorate
+#. Degree).
+#: courses/presenters.py
+msgid "Doctorate"
+msgstr "Doktori fokozat"
+
+#. Translators: This is a placeholder for enrollment data collected without a
+#. known geolocation.
+#: courses/presenters.py
+msgid "Unknown Country"
+msgstr "Ismeretlen ország"
+
+#. Translators: This describes the data displayed in the chart below.
+#: courses/templates/courses/demographics_chart_info.html
+msgid "Students (Self-Reported)"
+msgstr "Tanulók (bevallott adatok)"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Weekly Student Engagement"
+msgstr "Tanulók heti terheltsége"
+
+#: courses/templates/courses/engagement_content.html courses/views.py
+msgid "How many students are interacting with my course?"
+msgstr "Hány tanuló került kapcsolatba a kurzussal?"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Students"
+msgstr "Tanulók"
+
+#: courses/templates/courses/engagement_content.html
+msgid ""
+"The number of active students, and the number of students who engaged in "
+"specific activities, over time."
+msgstr ""
+"Az aktív tanulók száma és azon tanulók száma, akik valamilyen aktivitást "
+"mutattak."
+
+#: courses/templates/courses/engagement_content.html
+msgid "Student Activity Metrics"
+msgstr "Tanulók aktivitási mértéke"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Active Students Last Week"
+msgstr "Aktív tanulók az elmúlt héten"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Students who visited at least one page in the course content."
+msgstr "Tanulók akik legalább egy oldalt megnéztek a kurzus tartalmából."
+
+#. Translators: This is a label indicating the number of students who watched
+#. a video.
+#: courses/templates/courses/engagement_content.html
+msgid "Watched a Video Last Week"
+msgstr "Múlt héten nézett videók"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Students who played one or more videos."
+msgstr "Tanulók, akik legalább egy videót megnéztek."
+
+#. Translators: This is a label indicating the number of students who tried a
+#. problem.
+#: courses/templates/courses/engagement_content.html
+msgid "Tried a Problem Last Week"
+msgstr "Múlt héten próbált feladat"
+
+#: courses/templates/courses/engagement_content.html
+msgid ""
+"Students who submitted an answer for a standard problem. Not all problem "
+"types are included."
+msgstr ""
+"Tanulók, akik válaszoltak egy szabványos feladatra. Nem tartalmazza az "
+"összes feladat típust."
+
+#. Translators: This is a label indicating the number of students who posted
+#. in a forum discussion.
+#: courses/templates/courses/engagement_content.html
+msgid "Posted in a Discussion Last Week"
+msgstr "Múlt héten küldött Viták"
+
+#: courses/templates/courses/engagement_content.html
+msgid "Students who contributed to any discussion topic."
+msgstr "Tanulók akik részt vettek vitában."
+
+#: courses/templates/courses/engagement_content.html
+#: courses/templates/courses/engagement_content.html
+msgid "Content Engagement Breakdown"
+msgstr "Tartalom terheltség eloszlása"
+
+#: courses/templates/courses/engagement_content.html
+#: courses/templates/courses/enrollment_activity.html
+#: courses/templates/courses/enrollment_demographics_age.html
+#: courses/templates/courses/enrollment_demographics_education.html
+#: courses/templates/courses/enrollment_demographics_gender.html
+#: courses/templates/courses/enrollment_geography.html
+msgid "Download CSV"
+msgstr "CSV letöltése"
+
+#: courses/templates/courses/enrollment_activity.html
+msgid "Daily Student Enrollment"
+msgstr "Napi tanuló-hozzárendelés"
+
+#: courses/templates/courses/enrollment_activity.html courses/views.py
+msgid "How many students are in my course?"
+msgstr "Hány diák iratkozott be a kurzusomba?"
+
+#: courses/templates/courses/enrollment_activity.html
+msgid "Enrollments"
+msgstr "Feliratkozások"
+
+#: courses/templates/courses/enrollment_activity.html
+msgid ""
+"This graph displays total enrollment for the course calculated at the end of"
+" each day. Total enrollment includes new enrollments as well as "
+"unenrollments."
+msgstr ""
+"A grafikon az összes beiratkozott tanulót mutatja, az érték minden nap végén"
+" kerül kiszámításra. Az összes beiratkozottak száma tartalmazza az új "
+"tanulókat is, csakúgy, mint a leiratkozottakat."
+
+#: courses/templates/courses/enrollment_activity.html
+msgid "Enrollment Metrics"
+msgstr "Beiratkozás mértéke"
+
+#. Translators: This is a label to identify current student enrollment.
+#: courses/templates/courses/enrollment_activity.html
+msgid "Total Enrollment"
+msgstr "Jelentkezők összesen"
+
+#. Translators: This is a label indicating the number of students enrolled in
+#. a course.
+#: courses/templates/courses/enrollment_activity.html
+msgid "Students enrolled in the course."
+msgstr "Tanulók iratkoztak fel a kurzusra."
+
+#. Translators: This is a label indicating the change in the number of
+#. students enrolled in a course since the previous week.
+#: courses/templates/courses/enrollment_activity.html
+msgid "Change in Last Week"
+msgstr "Az elmúlt heti változások"
+
+#: courses/templates/courses/enrollment_activity.html
+msgid ""
+"The difference between the number of students enrolled at the end of the day"
+" yesterday and one week before."
+msgstr ""
+"Különbség a beiratkozott tanulók számában a nap végén, tegnap és egy héttel "
+"ezelőtti állapot szerint."
+
+#. Translators: This is a label to identify enrollment of students on the
+#. verified track.
+#: courses/templates/courses/enrollment_activity.html
+msgid "Verified Enrollment"
+msgstr "Ellenőrzött feliratkozás"
+
+#. Translators: This is a label indicating the number of students enrolled in
+#. a course on the verified track.
+#: courses/templates/courses/enrollment_activity.html
+msgid ""
+"Number of enrolled students who are pursuing a verified certificate of "
+"achievement."
+msgstr ""
+
+#. Translators: This is a label indicating the change in the number of
+#. students enrolled in the verified track of a course since the previous
+#. week.
+#: courses/templates/courses/enrollment_activity.html
+msgid "Change in Verified Enrollments Last Week"
+msgstr "Múlt heti változások az ellenőrzött feliratkozásban"
+
+#: courses/templates/courses/enrollment_activity.html
+msgid ""
+"The difference between the number of students pursuing verified certificates"
+" at the end of the day yesterday and one week before."
+msgstr ""
+
+#: courses/templates/courses/enrollment_activity.html
+#: courses/templates/courses/enrollment_activity.html
+#: courses/templates/courses/enrollment_demographics_age.html
+#: courses/templates/courses/enrollment_demographics_education.html
+#: courses/templates/courses/enrollment_demographics_gender.html
+msgid "Enrollment Over Time"
+msgstr "Időn túli beiratkozás"
+
+#: courses/templates/courses/enrollment_demographics_age.html courses/views.py
+msgid "How old are my students?"
+msgstr "Milyen idősek a tanulóim?"
+
+#. Translators: Maintain the double percentage symbols (%%) but move them to
+#. the appropriate location (before/after the value placeholder) for your
+#. language.
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid ""
+"This age histogram presents data computed for the %(value)s%% of enrolled "
+"students who provided a year of birth."
+msgstr ""
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Age Metrics"
+msgstr "Életkor mértékegység"
+
+#. Translators: This is a label to identify the median age of enrolled
+#. students.
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Median Student Age"
+msgstr "Tanulók életkorának mediánja"
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid ""
+"The midpoint of the student ages, computed from the provided year of birth."
+msgstr ""
+"A tanulók életkorának középpontja, a kitöltött születési évekből számolva."
+
+#. Translators: This is a label to identify the number of students in the age
+#. range.
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Students 25 and Under"
+msgstr "25 éves, vagy fiatalabb tanulók"
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid ""
+"The percentage of students aged 25 years or younger (of those who provided a"
+" year of birth)."
+msgstr ""
+"A 25 éves, vagy fiatalabb tanulók aránya (csak a kitöltött születési éveket "
+"tudjuk figyelembe venni)"
+
+#. Translators: This is a label to identify the number of students in the age
+#. range.
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Students 26 to 40"
+msgstr "26 és 40 év közötti tanulók"
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid ""
+"The percentage of students aged from 26 to 40 years (of those who provided a"
+" year of birth)."
+msgstr ""
+"A 26 és 40 év közötti tanulók aránya (csak a kitöltött születési éveket "
+"tudjuk figyelembe venni)"
+
+#. Translators: This is a label to identify the number of students in the age
+#. range.
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Students 41 and Over"
+msgstr "41 év feletti tanulók"
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid ""
+"The percentage of students aged 41 years or older (of those who provided a "
+"year of birth)."
+msgstr ""
+"A 41 éves, vagy idősebb tanulók aránya (csak a kitöltött születési éveket "
+"tudjuk figyelembe venni)"
+
+#: courses/templates/courses/enrollment_demographics_age.html
+msgid "Age Breakdown"
+msgstr "Életkor szerinti eloszlás"
+
+#: courses/templates/courses/enrollment_demographics_education.html
+#: courses/views.py
+msgid "What level of education do my students have?"
+msgstr "Milyen legmagasabb iskolai végzettséggel rendelkeznek a tanulóim?"
+
+#. Translators: Maintain the double percentage symbols (%%) but move them to
+#. the appropriate location (before/after the value placeholder) for your
+#. language.
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid ""
+"This graph presents data for the %(value)s%% of enrolled students who "
+"provided a highest level of education completed."
+msgstr ""
+
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid "Education Metrics"
+msgstr "Iskolai végzettség tengely"
+
+#. Translators: This is a label to identify student educational background.
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid "High School Diploma or Less"
+msgstr "Szakközépiskola/gimnáziumi érettségi vagy kevesebb"
+
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid ""
+"The percentage of students who selected Secondary/high school, Junior "
+"secondary/junior high/middle school, or Elementary/primary school as their "
+"highest level of education completed."
+msgstr ""
+"Tanulók aránya, akik a Szakközépiskolai/gimnáziumi, szakiskolai, vagy "
+"általános iskolai végzettséget írták a legmagasabb iskolai végzettségnek."
+
+#. Translators: This is a label to identify student educational background.
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid "College Degree"
+msgstr "Főiskolai diploma"
+
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid ""
+"The percentage of students who selected Bachelor's degree or Associate "
+"degree as their highest level of education completed."
+msgstr ""
+
+#. Translators: This is a label to identify student educational background.
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid "Advanced Degree"
+msgstr "Egyetemi diploma"
+
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid ""
+"The percentage of students who selected Doctorate or Master's or "
+"professional degree as their highest level of education completed."
+msgstr ""
+"Azoknak a tanulóknak az aránya, akik Doktor, Mester, vagy Professzor "
+"diplomát írtak legmagasabb iskolai végzettségnek."
+
+#: courses/templates/courses/enrollment_demographics_education.html
+msgid "Educational Breakdown"
+msgstr "Végzettség szerinti eloszlás"
+
+#: courses/templates/courses/enrollment_demographics_gender.html
+#: courses/views.py
+msgid "What is the student gender breakdown?"
+msgstr "Mi a tanulók nem szerinti eloszlása?"
+
+#. Translators: Maintain the double percentage symbols (%%) but move them to
+#. the appropriate location (before/after the value placeholder) for your
+#. language.
+#: courses/templates/courses/enrollment_demographics_gender.html
+msgid ""
+"This graph presents data for the %(value)s%% of enrolled students who "
+"specified their gender."
+msgstr ""
+
+#: courses/templates/courses/enrollment_demographics_gender.html
+msgid "Gender Breakdown Over Time"
+msgstr "Nem szerinti eloszlás az idő múlásával"
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Geographic Distribution"
+msgstr "Földrajzi eloszlás"
+
+#: courses/templates/courses/enrollment_geography.html courses/views.py
+msgid "Where are my students?"
+msgstr "Hol vannak a tanulóim?"
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Enrollment by Country"
+msgstr "Beiratkozás ország szerint"
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Geography Metrics"
+msgstr "Földrajzi mérték"
+
+#. Translators: This string represents the number of countries where students
+#. are enrolled.
+#: courses/templates/courses/enrollment_geography.html
+msgid "Total Countries Represented"
+msgstr "Az összes képviselt ország"
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Countries with at least one student."
+msgstr "Országok, melyekből legalább egy tanuló beiratkozott."
+
+#. Translators: This string represents the country with the greatest number of
+#. enrolled students.
+#: courses/templates/courses/enrollment_geography.html
+msgid "Top Country by Enrollment"
+msgstr "Ország, ahonnan a legtöbben iratkoztak be"
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Country with the largest number of students."
+msgstr "Ország a legnagyobb tanulói számmal"
+
+#. Translators: This string represents the country with the second-greatest
+#. number of enrolled students.
+#: courses/templates/courses/enrollment_geography.html
+msgid "Second Country by Enrollment"
+msgstr "Beiratkozás szerinti második ország"
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Country with the second largest number of students."
+msgstr "Ország a második legnagyobb számú tanulóval"
+
+#. Translators: This string represents the country with the third-greatest
+#. number of enrolled students.
+#: courses/templates/courses/enrollment_geography.html
+msgid "Third Country by Enrollment"
+msgstr "Beiratkozás szerinti harmadik ország"
+
+#: courses/templates/courses/enrollment_geography.html
+msgid "Country with the third largest number of students."
+msgstr "Ország a harmadik legnagyobb tanulói számmal"
+
+#. Translators: This string represents the percentage of students in a course.
+#. Move the % symbol, if necessary, but keep the percent variable/placeholder.
+#: courses/templates/courses/enrollment_geography.html
+msgid "%(percent)s%% of students"
+msgstr "tanulók %(percent)s%%-a"
+
+#: courses/templates/courses/enrollment_geography.html
+#: courses/templates/courses/enrollment_geography.html
+msgid "Geographic Breakdown"
+msgstr "Földrajzi eloszlás"
+
+#. Translators: Application here refers to the web site/application being used
+#. (e.g. the dashboard).
+#: courses/templates/courses/home.html templates/base_dashboard.html
+#: templates/footer.html templates/lens-navigation.html
+msgid "Application"
+msgstr "Applikáció"
+
+#: courses/templates/courses/home.html courses/views.py
+msgid "Course Home"
+msgstr ""
+
+#. Translators: This refers to the active tab/navigation item.
+#. Translators: This refers to the active tab/navigation item.
+#: courses/templates/courses/home.html templates/lens-navigation.html
+#: templates/submenu_navigation.html
+msgid "Active"
+msgstr "Aktív"
+
+#: courses/templates/courses/index.html
+msgid "Courses"
+msgstr "Kurzusok"
+
+#: courses/templates/courses/index.html
+msgid "Welcome, %(username)s!"
+msgstr "Üdvözlünk, %(username)s!"
+
+#: courses/templates/courses/index.html
+msgid "Here are the courses you currently have access to in Insights:"
+msgstr "Ezekhez a kurzusokhoz van betekintési hozzáférésed:"
+
+#: courses/templates/courses/index.html
+msgid "New to %(application_name)s?"
+msgstr "Új vagy a  %(application_name)s programban?"
+
+#: courses/templates/courses/index.html
+msgid ""
+"Click Help in the upper-right corner to get more information about "
+"%(application_name)s. Send us feedback at %(email_link)s."
+msgstr ""
+
+#. Translators: This message is displayed when the website is unable to get
+#. the credentials for the user
+#: courses/templates/courses/permissions-retrieval-failed.html
+#: courses/templates/courses/permissions-retrieval-failed.html
+msgid "Permissions Retrieval Failed"
+msgstr "Jogosultság lekérése sikertelen"
+
+#: courses/templates/courses/permissions-retrieval-failed.html
+msgid ""
+"There was a problem retrieving course permissions for your account. Please "
+"try again. If you continue to experience issues, please let us know."
+msgstr ""
+"Hiba történt a fiókodhoz rendelt kurzus jogok lekérése közben. Kérlek "
+"próbáld meg újra. Ha sikerül folytatnod, akkor oszd meg velünk a "
+"tapasztalataid."
+
+#: courses/templates/courses/permissions-retrieval-failed.html
+#: templates/auth_error.html
+msgid "Try Again"
+msgstr "Próbáld meg újra"
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+msgid "Activity"
+msgstr "Aktivitás"
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+#: courses/views.py courses/views.py
+msgid "Demographics"
+msgstr "Demográfiai"
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+msgid "Geography"
+msgstr "Földrajzi hely szerint"
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+msgid "Age"
+msgstr "Életkor"
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+msgid "Education"
+msgstr "Oktatás"
+
+#: courses/tests/test_views/__init__.py courses/views.py courses/views.py
+msgid "Gender"
+msgstr "Nem"
+
+#. Translators: Content as in course content (e.g. things, not the feeling)
+#: courses/tests/test_views/test_pages.py courses/views.py courses/views.py
+msgid "Content"
+msgstr "Tartalom"
+
+#. Translators: Do not translate UTC.
+#: courses/views.py
+msgid ""
+"Demographic student data was last updated %(update_date)s at %(update_time)s"
+" UTC."
+msgstr ""
+"A tanulók demográfiai adatainak frissítése utoljára %(update_date)s, "
+"%(update_time)s UTC történt."
+
+#. Translators: This sentence is displayed at the bottom of the page and
+#. describe the demographics data displayed.
+#: courses/views.py
+msgid ""
+"All above demographic data was self-reported at the time of registration."
+msgstr ""
+"A fenti demográfiai adatok a regisztrációnál megadottak alapján készült."
+
+#: courses/views.py
+msgid "Enrollment Activity"
+msgstr "Beiratkozási aktivitás"
+
+#. Translators: Do not translate UTC.
+#: courses/views.py
+msgid ""
+"Enrollment activity data was last updated %(update_date)s at %(update_time)s"
+" UTC."
+msgstr ""
+"A feliratkozási adatok frissítése utoljára %(update_date)s,  %(update_time)s"
+" UTC -kor történt meg."
+
+#: courses/views.py
+msgid "Enrollment Demographics by Age"
+msgstr "Feliratkozottak demográfiai adatai kor szerint"
+
+#: courses/views.py
+msgid "Enrollment Demographics by Education"
+msgstr "Feliratkozottak demográfiai adatai iskolai végzettség szerint"
+
+#: courses/views.py
+msgid "Enrollment Demographics by Gender"
+msgstr "Feliratkozottak demográfiai adatai életkor szerint"
+
+#: courses/views.py
+msgid "Enrollment Geography"
+msgstr "Beiratkozás földrajzi hely szerint"
+
+#. Translators: Do not translate UTC.
+#: courses/views.py
+msgid ""
+"Geographic student data was last updated %(update_date)s at %(update_time)s "
+"UTC."
+msgstr ""
+"A tanulók földrajzi adatai frissítésre kerültek %(update_date)s "
+"%(update_time)s UTC -kor."
+
+#: courses/views.py
+msgid "Engagement Content"
+msgstr "Tartalom terheltsége"
+
+#. Translators: Do not translate UTC.
+#: courses/views.py
+msgid ""
+"Course engagement data was last updated %(update_date)s at %(update_time)s "
+"UTC."
+msgstr ""
+"A kurzus terheltségi adatai  %(update_date)s, %(update_time)s UTC-kor "
+"kerültek frissítésre."
+
+#: courses/views.py
+msgid "What are students doing in my course?"
+msgstr ""
+
+#: templates/403.html templates/403.html.py
+msgid "Access Denied"
+msgstr "Hozzáférés megtagadva"
+
+#: templates/403.html
+msgid ""
+"You do not have permission to view this page. If you believe you should have"
+" access to this page, try logging out and logging in again to refresh your "
+"permissions."
+msgstr ""
+"Nincs jogod megnézni ezt az oldalt. Ha úgy gondolod, hogy van jogod hozzá, "
+"akkor jelentkezz ki és vissza, hogy a jogosultságok frissítésre kerüljenek."
+
+#: templates/403.html
+msgid "Logout then Login"
+msgstr "Jelentkezz ki, majd vissza"
+
+#: templates/404.html templates/404.html.py
+msgid "Page Not Found"
+msgstr "Az oldal nem található"
+
+#: templates/404.html
+msgid ""
+"We can't find the page you're looking for. Please make sure the URL is "
+"correct and if not try again."
+msgstr ""
+"Nem találjuk az általad keresett oldalt. Győződj meg róla, hogy a beírt URL "
+"helyes, ha nem, akkor ne próbálkozz újra."
+
+#: templates/500.html templates/500.html.py
+msgid "An Error Occurred"
+msgstr "Hiba történt"
+
+#: templates/500.html
+msgid ""
+"Our servers weren't able to complete your request. Please try again by "
+"refreshing this page or retracing your steps."
+msgstr ""
+"A szervereink nem tudták feldolgozni a kérésed. Kérlek frissítsd az oldalt, "
+"vagy ismételd meg a legutóbbi lépéseket."
+
+#: templates/auth_error.html templates/auth_error.html.py
+msgid "Authentication Failed"
+msgstr "Azonosítás sikertelen"
+
+#: templates/auth_error.html
+msgid "There was a problem accessing your account. Please try again."
+msgstr "Hiba történt a fiókod elérése közben. Kérlek próbáld meg újra."
+
+#: templates/base-error.html
+msgid "Use our support tool to ask questions or share feedback."
+msgstr ""
+"Használd a támogató eszközöket kérdés feltevéshez, vagy oszd meg a "
+"visszajelzésed."
+
+#. Translators: This intention here is that a user clicks a button to contact
+#. a support group (e.g. edX Support, or MITx Support). Reorder the
+#. placeholder as you see fit.
+#: templates/base-error.html
+msgid "Contact %(platform_name)s Support"
+msgstr "Vedd fel a kapcsolatot a %(platform_name)s támogató csoporttal"
+
+#: templates/footer.html
+msgid ""
+"We want this dashboard to work for you! Need help? "
+"%(support_link_start)sVisit our support forum%(support_link_end)s. Comments "
+"or suggestions? Email %(email_link)s."
+msgstr ""
+
+#: templates/footer.html
+msgid "Terms of Service"
+msgstr "Szolgáltatási feltételek"
+
+#: templates/footer.html
+msgid "Privacy Policy"
+msgstr "Adatvédelem"
+
+#. Translators: The © symbol appears directly before this line.
+#: templates/footer.html
+msgid ""
+" %(current_year)s %(platform_name)s, except where noted, all rights\n"
+"            reserved. "
+msgstr ""
+"%(current_year)s %(platform_name)s, minden jog fenntartva\n"
+" kivéve, ahol mást írunk."
+
+#: templates/header.html
+msgid "Toggle navigation"
+msgstr "Navigáció bekapcsolása"
+
+#: templates/header.html
+msgid "Help"
+msgstr "Segítség"
+
+#: templates/header.html
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: templates/loading.html
+msgid "LOADING..."
+msgstr "BETÖLTÉS..."
+
+#: templates/section_error.html
+msgid "We are unable to load this chart."
+msgstr "Diagram betöltése sikertelen."
+
+#: templates/section_error.html
+msgid "We are unable to load this table."
+msgstr "Táblázat betöltése sikertelen."
+
+#: templates/section_error.html
+msgid "We are unable to load these metrics."
+msgstr "Mértékegység betöltése sikertelen."

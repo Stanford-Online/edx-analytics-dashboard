@@ -4,6 +4,7 @@
 {% load staticfiles %}
 {% load waffle_tags %}
 {% load dashboard_extras %}
+{% load rjs %}
 
 {% comment %}
 Individual course-centric engagement content view.
@@ -13,7 +14,7 @@ Individual course-centric engagement content view.
 
 {% block javascript %}
   {{ block.super }}
-  <script src="{% static 'js/engagement-content-main.js' %}"></script>
+  <script src="{% static_rjs 'js/engagement-content-main.js' %}"></script>
 {% endblock javascript %}
 
 {% block child_content %}
@@ -26,13 +27,14 @@ Individual course-centric engagement content view.
     {% if js_data.course.engagementTrends %}
         <div class="section-content section-data-graph">
           <div class="section-content section-data-viz">
-            <div id="engagement-trend-view">
-              <div class="line-chart-container">
-                <div class="line-chart ">
-                  {% include "loading.html" %}
+                <div class="analytics-chart-container">
+                    <div class="chart-info">{% trans "Students" %}</div>
+                    {% trans "The number of active students, and the number of students who engaged in specific activities, over time." as tip_text %}
+                    {% include "chart_tooltip.html" with tip_text=tip_text track_category="trend"%}
+                    <div id="engagement-trend-view" class="analytics-chart">
+                        {% include "loading.html" %}
+                    </div>
                 </div>
-              </div>
-            </div>
           </div>
         </div>
     {% else %}
@@ -87,7 +89,7 @@ Individual course-centric engagement content view.
 
       <div class="section-actions">
         {% if js_data.course.engagementTrends %}
-            <a href="{% url 'courses:csv_engagement_activity_trend' course_id=course_id %}" class="btn btn-default"
+            <a href="{% url 'courses:csv:engagement_activity_trend' course_id=course_id %}" class="btn btn-default"
                data-role="engagement-trend-csv" data-track-type="click"
                data-track-event="edx.bi.csv.downloaded" data-track-category="trend">
               <i class="ico fa fa-download" aria-hidden="true"></i> {% trans "Download CSV" %}
