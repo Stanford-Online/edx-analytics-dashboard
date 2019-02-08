@@ -18,14 +18,14 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-21 18:32-0400\n"
-"PO-Revision-Date: 2018-01-22 17:21+0000\n"
+"PO-Revision-Date: 2018-06-20 10:44+0000\n"
 "Last-Translator: Ali Işıngör <ali@artistanbul.io>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr_TR\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: static/apps/components/download/views/download-data.js:25
 msgid "Download CSV"
@@ -250,7 +250,7 @@ msgstr "Geçen Öğrenciler"
 
 #: static/apps/course-list/common/collections/course-list.js:89
 msgid "Availability"
-msgstr ""
+msgstr "Uygunluk"
 
 #: static/apps/course-list/common/collections/course-list.js:90
 msgid "Pacing Type"
@@ -262,11 +262,11 @@ msgstr "Programlar"
 
 #: static/apps/course-list/list/views/base-header-cell.js:11
 msgid "Course name advertised on edX site."
-msgstr ""
+msgstr "edX sitesinde ilan edilecek ders adı."
 
 #: static/apps/course-list/list/views/base-header-cell.js:12
 msgid "Start date advertised on edX site."
-msgstr ""
+msgstr "edX sitesindeki ilan başlangıç tarihi."
 
 #: static/apps/course-list/list/views/base-header-cell.js:13
 msgid "End date set in edX Studio."
@@ -282,7 +282,7 @@ msgstr "Mevcut olarak derse kayıtlı öğrenciler."
 
 #: static/apps/course-list/list/views/base-header-cell.js:16
 msgid "Net difference in current enrollment in the last week."
-msgstr ""
+msgstr "Geçen haftaki geçerli kaydın net farkı."
 
 #: static/apps/course-list/list/views/base-header-cell.js:18
 msgid ""
@@ -305,7 +305,7 @@ msgstr "Bir ders bul"
 
 #: static/apps/course-list/list/views/controls.js:68
 msgid "availability"
-msgstr ""
+msgstr "uygunluk"
 
 #: static/apps/course-list/list/views/controls.js:76
 msgid "pacing_type"
@@ -313,7 +313,7 @@ msgstr "eğitim_türü"
 
 #: static/apps/course-list/list/views/controls.js:84
 msgid "program_ids"
-msgstr ""
+msgstr "program_num"
 
 #: static/apps/course-list/list/views/course-list.js:66
 msgid "Download full course list to CSV"
@@ -339,13 +339,13 @@ msgstr "Dosyalarınızı temizlemeyi deneyin."
 
 #: static/apps/course-list/list/views/results.js:55
 msgid "No course data is currently available for your course."
-msgstr ""
+msgstr "Dersiniz için henüz bir ders verisi mevcut değil."
 
 #: static/apps/course-list/list/views/results.js:57
 msgid ""
 "No courses are enrolled, or course activity data has not yet been processed."
 " Data is updated every day, so check back regularly for up-to-date metrics."
-msgstr ""
+msgstr "Herhangi bir ders kayıtlanmadı ya da ders etkinlik verileri henüz işlenmedi. Veriler her gün güncellenmektedir, dolayısıyla güncel metrikler için düzenli olarak kontrol edin."
 
 #: static/apps/course-list/list/views/search.js:71
 msgid "Search courses"
@@ -363,7 +363,7 @@ msgstr "aramayı temizle"
 
 #: static/apps/course-list/list/views/table.js:48
 msgid "Date not available"
-msgstr ""
+msgstr "Tarih mevcut değil"
 
 #: static/apps/learners/app/controller.js:59
 msgid "Learner Roster"
@@ -371,7 +371,7 @@ msgstr ""
 
 #: static/apps/learners/app/controller.js:97
 msgid "Sorry, we couldn't find any learners who matched that query."
-msgstr ""
+msgstr "Üzgünüz, bu aramaya uygun herhangi bir öğrenci bulamadık."
 
 #: static/apps/learners/app/controller.js:98
 msgid "Return to the Learners page."
@@ -418,7 +418,7 @@ msgstr "Kısımlar"
 
 #: static/apps/learners/common/collections/learners.js:25
 msgid "Segments to Ignore"
-msgstr ""
+msgstr "Gözardı Edilecek Segmentler"
 
 #: static/apps/learners/common/collections/learners.js:26
 #: static/apps/learners/detail/views/learner-detail.js:101
@@ -453,7 +453,7 @@ msgstr "Değer"
 #. Translators: e.g. Learner engagement activity
 #: static/apps/learners/detail/views/learner-detail.js:28
 msgid "Engagement Activity"
-msgstr ""
+msgstr "Etkileşim Aktivitesi"
 
 #: static/apps/learners/detail/views/learner-detail.js:29
 msgid "Daily Activity"
@@ -461,7 +461,7 @@ msgstr "Günlük Faaliyet"
 
 #: static/apps/learners/detail/views/learner-detail.js:30
 msgid "Activity Over Time"
-msgstr ""
+msgstr "Zaman İçindeki Etkinlik"
 
 #: static/apps/learners/detail/views/learner-detail.js:95
 msgid "Enrollment"
@@ -480,11 +480,11 @@ msgstr "yok"
 
 #: static/apps/learners/detail/views/learner-detail.js:139
 msgid "Check back daily for up-to-date data."
-msgstr ""
+msgstr "Güncel veriler için gün aşırı denetleyin."
 
 #: static/apps/learners/detail/views/learner-detail.js:149
 msgid "No course activity data is available for this learner."
-msgstr ""
+msgstr "Bu öğrenci için henüz bir ders aktivite verisi mevcut değil."
 
 #: static/apps/learners/detail/views/learner-detail.js:156
 msgid "No learner data is available."
@@ -535,7 +535,7 @@ msgstr "Öğrencinin oynattığı tekil videoların sayısı."
 msgid ""
 "Average number of attempts per correct problem. Learners with a relatively "
 "high value compared to their peers may be struggling."
-msgstr ""
+msgstr "Doğru cevaba ulaşmak için yapılan deneme sayısı. Akranlarına göre daha fazla değere sahip öğrenciler öğrenmede sıkıntı yaşıyor olabilir."
 
 #: static/apps/learners/roster/views/base-header-cell.js:17
 msgid ""
@@ -549,7 +549,7 @@ msgstr "Öğrenci bul"
 
 #: static/apps/learners/roster/views/controls.js:75
 msgid "Cohort Groups"
-msgstr "Topluluk grupları"
+msgstr "Topluluk Grupları"
 
 #: static/apps/learners/roster/views/controls.js:73
 msgid "cohort"
@@ -557,7 +557,7 @@ msgstr "topluluk"
 
 #: static/apps/learners/roster/views/controls.js:87
 msgid "Enrollment Tracks"
-msgstr ""
+msgstr "Kayıtlanma Yolları"
 
 #: static/apps/learners/roster/views/controls.js:85
 msgid "enrollment_mode"
@@ -587,7 +587,7 @@ msgid ""
 "No learners are enrolled, or course activity data has not yet been "
 "processed. Data is updated every day, so check back regularly for up-to-date"
 " metrics."
-msgstr ""
+msgstr "Herhangi bir öğrenci kayıtlanmadı ya da ders etkinlik verileri henüz işlenmedi. Veriler her gün güncellenmektedir, dolayısıyla güncel metrikler için düzenli olarak kontrol edin."
 
 #: static/apps/learners/roster/views/roster.js:110
 msgid "Learner roster controls"
@@ -617,7 +617,7 @@ msgstr "Bir problem denedi"
 
 #: static/js/engagement-content-main.js:41
 msgid "Participated in Discussions"
-msgstr ""
+msgstr "Tartışmalara Katılanlar"
 
 #: static/js/engagement-content-main.js:48
 msgid "Percent of Current Learners"
@@ -826,7 +826,7 @@ msgstr "Doğru Yüzdesi"
 
 #: static/js/performance-learning-outcomes-content-main.js:38
 msgid "Average Submissions per Problem"
-msgstr ""
+msgstr "Problem Başına Ortalama Uygulama Sayısı"
 
 #: static/js/performance-learning-outcomes-section-main.js:30
 msgid "Difficulty"
